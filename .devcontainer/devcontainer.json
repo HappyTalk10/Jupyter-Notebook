@@ -1,0 +1,12 @@
+{
+  "name": "Jupyter Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [
+    "ms-toolsai.jupyter"
+  ],
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install notebook"
+}
